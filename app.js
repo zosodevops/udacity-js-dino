@@ -99,12 +99,12 @@ function createTiles(dinos, human) {
         // Create new Dino object from json
         let newDino = new Dino( 
             dino.species
-            , dino.weight
-            , dino.height
-            , dino.diet
-            , dino.where
-            , dino.when
-            , dino.fact );
+          , dino.weight
+          , dino.height
+          , dino.diet
+          , dino.where
+          , dino.when
+          , dino.fact );
         // Add tile html to tiles[]
         tiles.push(`
             <div class=grid-item>
