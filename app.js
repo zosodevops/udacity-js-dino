@@ -24,9 +24,9 @@ function Dino(species, weight, height, diet, where, when, fact) {
      */
     this.compareWeight = function(human) {
         if (human.weight > this.weight){
-            return `${human.name} has ${human.weight - this.weight} lbs on this dino.`;
+            return `You've got ${human.weight - this.weight} lbs on this dino.`;
         }
-        return `This dino tips the scales at ${this.weight} lbs.`;
+        return `This dino tipped the scales at ${this.weight} lbs.`;
     },
     /**
      * @description Compares height of dinosaur to given human
@@ -35,9 +35,9 @@ function Dino(species, weight, height, diet, where, when, fact) {
      */
     this.compareHeight = function(human) {
         if (human.height > this.height) {
-            return ``;
+            return `You've got ${human.height - this.height} in. on this dino. `;
         }
-        return `${this.species} is ${this.height - human.height} inches taller than you! RUN!`;
+        return `${this.species} was ${this.height - human.height} inches taller than you!`;
     },
     /**
      * @description Compares diet of dinosaur to given human
